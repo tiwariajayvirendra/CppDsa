@@ -64,9 +64,9 @@ using namespace std;
 // }
 //
 int main(){
-    char am;
+    char aman;
         cout << "Enter Char :";
-        cin >> am;
+        cin >> aman;
         if (am <= 116 && am >=91){
             cout<< "Lower case \n";
         }else{
