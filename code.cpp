@@ -62,5 +62,27 @@ using namespace std;
     
 //     return 0;
 // }
+//
+int main(){
+    char am;
+        cout << "Enter Char :";
+        cin >> am;
+        if (am <= 116 && am >=91){
+            cout<< "Lower case \n";
+        }else{
+            cout << "UpperCase \n";
+        }
 
+return 0;
 
+}
+
+// char ch;
+//     cout << "enter Char ";
+//     cin >> ch;
+//     if(ch >=65 && ch<=90){
+//         cout << "Upper Case\n ";
+//     } else {
+//         cout <<"Lower Case\n ";
+//     }
+// return 0;
