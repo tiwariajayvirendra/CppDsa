@@ -8,7 +8,7 @@ using namespace std;
 //     int a = 11, b = 5;
 //     cout << "sum =" <<(a+b)<<endl;
 //     cout <<"difference =" << (a-b) << endl;
-//     cout <<"product = " << (a+b)<< endl;
+//     cout <<"product = " << (a*b)<< endl;
 //     cout << "division =" << (a/b) << endl;  //2
 //     cout << "Modulo= " << (a%b) << endl;
 //     return 0;
@@ -53,7 +53,7 @@ using namespace std;
 
 //     if(marks >=90){
 //         cout << "A\n";
-//     }else if(marks >= 80 &&  90) {
+//     }else if(marks >= 80 && marks < 90) {
 //         cout << "B\n";
 //     } else {
 
@@ -63,19 +63,19 @@ using namespace std;
 //     return 0;
 // }
 //
-int main(){
-    char aman;
-        cout << "Enter Char :";
-        cin >> aman;
-        if (am <= 116 && am >=91){
-            cout<< "Lower case \n";
-        }else{
-            cout << "UpperCase \n";
-        }
+// int main(){
+//     char ch;
+//         cout << "Enter Char :";
+//         cin >> ch;
+//         if (ch >= 'a' && ch <= 'z'){
+//             cout<< "Lower case \n";
+//         }else{
+//             cout << "UpperCase \n";
+//         }
 
-return 0;
+// return 0;
 
-}
+// }
 
 // char ch;
 //     cout << "enter Char ";
@@ -86,3 +86,16 @@ return 0;
 //         cout <<"Lower Case\n ";
 //     }
 // return 0;
+int main(){
+    int a ,b;
+    cout << "Enter Your 2 numbers: ";
+    cin >> a >> b ;
+    if(a == b){
+        cout << "Equal \n" ; 
+    }else if(a > b){
+        cout << "A is greater \n";
+    } else if(a < b) {
+        cout << "A is Lesser \n";
+    }
+    return 0;
+}
