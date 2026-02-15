@@ -86,16 +86,31 @@ using namespace std;
 //         cout <<"Lower Case\n ";
 //     }
 // return 0;
+// int main(){
+//     int a ,b;
+//     cout << "Enter Your 2 numbers: ";
+//     cin >> a >> b ;
+//     if(a == b){
+//         cout << "Equal \n" ; 
+//     }else if(a > b){
+//         cout << "A is greater \n";
+//     } else if(a < b) {
+//         cout << "A is Lesser \n";
+//     }
+//     return 0;
+// }
+int a = 26;
+int b = 27;
+
 int main(){
-    int a ,b;
-    cout << "Enter Your 2 numbers: ";
-    cin >> a >> b ;
-    if(a == b){
-        cout << "Equal \n" ; 
-    }else if(a > b){
-        cout << "A is greater \n";
-    } else if(a < b) {
-        cout << "A is Lesser \n";
+
+    if(a % 2 ==0){
+        cout << "even Nmber hai" << a;
+    }else if (b % 2 == 1){
+        cout << "odd Number hai  " << b;
     }
     return 0;
-}
+};
+
+
+
